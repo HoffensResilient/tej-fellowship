@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+#banner {
+  width: 35%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  background-color: rgb(80, 232, 255);
+  border-radius: 10px;
+}
+.banner-txt {
+  color: red;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+.readme {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hello {
+  display: flex;
+  justify-content: center;
+}
+.btn-hello {
+  font-size: 16px;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.count input {
+  max-width: 20px;
+  text-align: center;
+  margin: 0 10px;
+  height: 22px;
+  background-color: white;
+  border: none;
+}
+.btn {
+  padding: 4px 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.count h1 {
+  font-size: 18px;
+}
